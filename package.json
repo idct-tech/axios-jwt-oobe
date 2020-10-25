@@ -1,5 +1,5 @@
 {
-    "name": "axios-jwt-oobe",
+    "name": "@idct/axios-jwt-oobe",
     "version": "0.1.0",
     "author": "IDCT Bartosz Pachołek <bartosz@idct.pl>",
     "description": "Wrapper around Axios which adds out-of-the-box experience for JWT Tokens with Refresh Tokens.",
