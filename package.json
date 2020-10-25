@@ -1,0 +1,40 @@
+{
+    "name": "axios-jwt-oobe",
+    "version": "0.1.0",
+    "author": "IDCT Bartosz Pachołek <bartosz@idct.pl>",
+    "description": "Wrapper around Axios which adds out-of-the-box experience for JWT Tokens with Refresh Tokens.",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/nyc/bin/nyc.js --reporter=text ./node_modules/mocha/bin/mocha --require mock-local-storage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ideaconnect/axios-jwt-oobe.git"
+    },
+    "keywords": [
+        "axios",
+        "jwt",
+        "authorization"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ideaconnect/axios-jwt-oobe/issues"
+    },
+    "homepage": "https://github.com/ideaconnect/axios-jwt-oobe#readme",
+    "dependencies": {
+        "axios": "^0.20.0"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.2.0",
+        "mock-local-storage": "^1.1.15",
+        "moxios": "^0.4.0",
+        "nyc": "^15.1.0"
+    }
+}
